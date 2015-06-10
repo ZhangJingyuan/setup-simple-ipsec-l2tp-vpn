@@ -124,7 +124,7 @@ fi
 
 echo ""
 
-PUBLICIP=`wget -q -O - http://wtfismyip.com/text`
+PUBLICIP=`wget -q -O - http://ipecho.net/plain`
 if [ "x$PUBLICIP" = "x" ]
 then
   echo "Your server's external IP address could not be detected!"
